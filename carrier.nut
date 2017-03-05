@@ -197,13 +197,13 @@ class Carrier {
       return i
     }
     
-    function set_selector_color( r, g ,b, a)
+    function set_selector_color( r, g ,b )
     {
         try { selector.set_bg_rgb( r, g, b ); selector.alpha = 10 }
         catch(e) {}
     }
     
-    function set_background_color( r, g ,b, a)
+    function set_background_color( r, g ,b )
     {
         try{ surfaceBackground.set_bg_rgb( r, g, b ) }
         catch(e) {}
